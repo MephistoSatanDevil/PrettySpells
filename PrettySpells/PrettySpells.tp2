@@ -26,7 +26,7 @@ LANGUAGE 	~English~
 
 LANGUAGE 	~简体中文~ 					
 					~schinese~
-					~PrettySpells/languages/schinese/prompts/prompts-%WEIDU_OS%.tra~
+					~PrettySpells/languages/schinese/prompts/prompts.tra~
 					~PrettySpells/languages/schinese/setup.tra~
 
 
@@ -43,7 +43,7 @@ DESIGNATED 1
 	spmagglo //法术陷阱 原版ONLY
 */
 
-OUTER_SET exeok =0
+OUTER_SET exeok =1
 
 COPY - ~%MOD_FOLDER%/lib/exe_offset.2da~ ~%MOD_FOLDER%/lib/exe_offset.2da~
 	COUNT_2DA_COLS cols
